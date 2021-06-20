@@ -1,4 +1,5 @@
 ﻿# HowTo-OracleAdo Access
+20.06.2021 
 Just a Howto access Oracle DB from DotnetCore only with nuget Packages.
 
 ## About
