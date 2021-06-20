@@ -2,28 +2,20 @@
 
 Foobar is a Python library for dealing with word pluralization.
 
-## Installation
+## About
+Simple Access Oracle Database without any other Client Software Installation.
+No Dependency to TNSNames, No Dependency to ODBC DataSource.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-```bash
-pip install foobar
-```
 
 ## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+2 Nuget Package need:
+1.  ODP.NetCore					https://www.nuget.org/packages/ODP.NetCore/
+2.  Oracle Managed Access		https://www.nuget.org/packages/Oracle.ManagedDataAccess.Core
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Just a howTo. Sorry
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
