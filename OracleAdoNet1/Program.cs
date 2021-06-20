@@ -8,7 +8,7 @@ using Oracle.ManagedDataAccess.Client;
 // https://www.oracle.com/webfolder/technetwork/tutorials/obe/db/dotnet/ODPNET_Core_get_started/index.html
 // Oracle DB Access with DotnetCore - Oracle.ManagedAccess.Client
 
-namespace OracleAdoNet1 {
+namespace OracleAdoNet {
     class Program {
         static void Main(string [] args) {
             Stopwatch sw = new Stopwatch ();

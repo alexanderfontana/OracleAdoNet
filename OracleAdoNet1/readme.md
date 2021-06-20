@@ -1,18 +1,24 @@
-﻿# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
+﻿# HowTo-OracleAdo Access
+Just a Howto access Oracle DB from DotnetCore only with nuget Packages.
 
 ## About
 Simple Access Oracle Database without any other Client Software Installation.
-No Dependency to TNSNames, No Dependency to ODBC DataSource.
-
+No Dependency to TNSNames, 
+No Dependency to ODBC DataSource.
+Just Import an Access.
 
 
 ## Usage
 2 Nuget Package need:
-1.  ODP.NetCore					https://www.nuget.org/packages/ODP.NetCore/
-2.  Oracle Managed Access		https://www.nuget.org/packages/Oracle.ManagedDataAccess.Core
-```
+1.  ODP.NetCore				Install-Package ODP.NetCore -Version 2.0.12						https://www.nuget.org/packages/ODP.NetCore/
+2.  Oracle Managed Access   Install-Package Oracle.ManagedDataAccess.Core -Version 3.21.1   https://www.nuget.org/packages/Oracle.ManagedDataAccess.Core
+
+
+The Oracle Database must be available on Port 1521 with user dummy. Containing a Table name foo(id int) with 3 Rows in this table.
+
+
+Press 5 to start
+Time : 450 ms - 20.06.2021 
 
 ## Contributing
 Just a howTo. Sorry
