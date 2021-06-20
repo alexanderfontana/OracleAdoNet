@@ -1,4 +1,5 @@
 ﻿# HowTo-OracleAdo Access
+20.06.2021 
 Just a Howto access Oracle DB from DotnetCore only with nuget Packages.
 
 ## About
@@ -10,13 +11,13 @@ Just Import an Access.
 
 ## Usage
 2 Nuget Package need:
-1.  ODP.NetCore
-		Install-Package ODP.NetCore -Version 2.0.12
-		https://www.nuget.org/packages/ODP.NetCore/
+1.    ODP.NetCore
+1.1.  Install-Package ODP.NetCore -Version 2.0.12
+1.2.  https://www.nuget.org/packages/ODP.NetCore/
 
 2.  Oracle Managed Access
-	Install-Package Oracle.ManagedDataAccess.Core -Version 3.21.1
-	https://www.nuget.org/packages/Oracle.ManagedDataAccess.Core
+2.1 Install-Package Oracle.ManagedDataAccess.Core -Version 3.21.1
+2.2 https://www.nuget.org/packages/Oracle.ManagedDataAccess.Core
 
 
 The Oracle Database must be available on Port 1521 with user dummy. Containing a Table name foo(id int) with 3 Rows in this table.

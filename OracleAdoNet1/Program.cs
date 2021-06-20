@@ -2,11 +2,11 @@
 using System.Diagnostics;
 using Oracle.ManagedDataAccess.Client;
 
-// 20.06.2021
+// 20.06.2021 current
 // Oracle resists as a Docker Container, but this is another story
 // Table Foo in Oracle with only column int id created by hand, filled by hand. Also another Story
 // https://www.oracle.com/webfolder/technetwork/tutorials/obe/db/dotnet/ODPNET_Core_get_started/index.html
-// Oracle DB Access with DotnetCore - Oracle.ManagedAccess.Client
+// Oracle DB Access with DotnetCore - Oracle.ManagedAccess.Client 
 
 namespace OracleAdoNet {
     class Program {
