@@ -12,7 +12,7 @@ Just Import an Access.
    2 Nuget Package need
 * 1 [ODP.NetCore ](https://www.nuget.org/packages/ODP.NetCore/)
 * 2 [Oracle Managed Access ](https://www.nuget.org/packages/Oracle.ManagedDataAccess.Core)
-
+ 
 
 The Oracle Database must be available on Port 1521 with user dummy. Containing a Table name foo(id int) with 3 Rows in this table.
 
