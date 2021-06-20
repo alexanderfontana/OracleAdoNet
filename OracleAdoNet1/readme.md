@@ -12,10 +12,9 @@ Just Import an Access.
 
 ## Usage
 2 Nuget Package need:
-* 1.1 [Package #1 ](ODP.NetCore)
-1.    
-1.1.  Install-Package ODP.NetCore -Version 2.0.12
-1.2.  https://www.nuget.org/packages/ODP.NetCore/
+* 1.1 [ODP.NetCore ]()
+* 1.2 [Install-Package ODP.NetCore -Version 2.0.12]()
+* 1.3 [https://www.nuget.org/packages/ODP.NetCore/ ]()
 
 * 2 [Package #2 ](Oracle Managed Access)
 2.1 Install-Package Oracle.ManagedDataAccess.Core -Version 3.21.1
